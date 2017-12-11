@@ -1,0 +1,3 @@
+#Mount share folders
+
+sudo mount -t vboxsf -o uid=$UID,gid=$(id -g) CarND_Capstone /Volumes/Data/deeplearning/courses/udacity/carnd/Term3.PathPlanning/projects/Capstone Project
